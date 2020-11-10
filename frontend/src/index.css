@@ -14,6 +14,7 @@ body{
 #root{
   height: 100%;
 }
+
 /*Layout */
 .grid-container{
   display: grid;
@@ -38,6 +39,7 @@ footer{
   background-color: #203040;
   color: #ffffff;
 }
+
 /*Common */
 h1{
   font-size: 1.8rem;
@@ -81,6 +83,7 @@ button.primary{
 button.block{
   width: 100%;
 }
+
 /*Header */
 header a{
   color: #ffffff;
@@ -101,7 +104,7 @@ a.brand {
   justify-content: center;
 }
 .row.top{
-  align-items: flex-start;
+  align-items: flex-start; /* Put row in the top of div */
 }
 .col-1{
   flex: 1 1 25rem;
@@ -109,6 +112,7 @@ a.brand {
 .col-2{
   flex: 2 1 50rem;
 }
+
 /* Image*/
 img {
   border-radius: 0.5rem;
@@ -118,8 +122,9 @@ img.medium{
   width: 100%;
 }
 img.large{
-  width: 100%;
+  width: 100%; /* To make images responsive */
 }
+
 /* Card */
 .card{
   border: 0.1rem #c0c0c0 solid;
@@ -136,6 +141,7 @@ img.large{
 .price{
   font-size: 2rem;
 }
+
 /* Rating */
 .rating span{
   color:#f0c040;
@@ -144,6 +150,7 @@ img.large{
 .rating span:last-child{
   color: #404040;
 }
+
 /* Alert */
 .success{
   color:#20a020;
