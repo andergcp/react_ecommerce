@@ -7,6 +7,7 @@ import { listProducts } from '../actions/productActions';
 
 function HomeScreen() {
     const dispatch = useDispatch();
+    /* We use useSelector to get an object from redux store*/
     const productList = useSelector( state => state.productList);
     const { loading, error, products} = productList;
 

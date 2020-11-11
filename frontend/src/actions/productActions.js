@@ -1,6 +1,7 @@
 import Axios from "axios";
 import { PRODUCT_LIST_FAIL, PRODUCT_LIST_REQUEST, PRODUCT_LIST_SUCCESS } from "../constants/productConstants"
 
+/* Product Actions, try to get data of products from backend and dispatchs to store */
 export const listProducts = () => async (dispatch) =>{
     dispatch({
         type: PRODUCT_LIST_REQUEST
